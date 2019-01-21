@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name to220-heatsink)(type KiCad)(uri "$(KIPRJMOD)/to220-heatsink.pretty")(options "")(descr ""))
+)

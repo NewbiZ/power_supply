@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/avallee/power_supply/power_supply.sch</source>
+    <date>Tue 15 Jan 2019 08:11:45 PM HKT</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Power board</title>
+        <company/>
+        <rev>1</rev>
+        <date>2019-01-15</date>
+        <source>power_supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="VROUT2">
+      <value>LM338T</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <libsource lib="regul" part="LM317T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C39706A</tstamp>
+    </comp>
+    <comp ref="IN15V1">
+      <value>TB</value>
+      <footprint>Connectors:bornier2</footprint>
+      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C397263</tstamp>
+    </comp>
+    <comp ref="OUT2">
+      <value>TB</value>
+      <footprint>Connectors:bornier2</footprint>
+      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C39736A</tstamp>
+    </comp>
+    <comp ref="CBIN1">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D4.5mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C397504</tstamp>
+    </comp>
+    <comp ref="CSIN1">
+      <value>1000uF</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D10.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3975EB</tstamp>
+    </comp>
+    <comp ref="RIN1">
+      <value>750</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C397749</tstamp>
+    </comp>
+    <comp ref="DIN1">
+      <value>RED</value>
+      <footprint>LEDs:LED_D3.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3977CA</tstamp>
+    </comp>
+    <comp ref="DVROUT2">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3978B3</tstamp>
+    </comp>
+    <comp ref="R1OUT2">
+      <value>220</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C397966</tstamp>
+    </comp>
+    <comp ref="DOUT2">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C397AC5</tstamp>
+    </comp>
+    <comp ref="CBOUT2">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D4.5mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C397E98</tstamp>
+    </comp>
+    <comp ref="CSOUT2">
+      <value>100uF</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D4.5mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C397F12</tstamp>
+    </comp>
+    <comp ref="FOUT2">
+      <value>1.1A</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuse_TE5_Littlefuse-395Series</footprint>
+      <libsource lib="device" part="Polyfuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C397FE9</tstamp>
+    </comp>
+    <comp ref="R2OUT2">
+      <value>2K</value>
+      <footprint>Connectors:bornier2</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C398079</tstamp>
+    </comp>
+    <comp ref="VROUT1">
+      <value>LM338T</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <libsource lib="regul" part="LM317T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3CB256</tstamp>
+    </comp>
+    <comp ref="OUT1">
+      <value>TB</value>
+      <footprint>Connectors:bornier2</footprint>
+      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3CB25C</tstamp>
+    </comp>
+    <comp ref="DVROUT1">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3CB262</tstamp>
+    </comp>
+    <comp ref="R1OUT1">
+      <value>220</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3CB268</tstamp>
+    </comp>
+    <comp ref="DOUT1">
+      <value>1N4001</value>
+      <footprint>Diodes_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3CB26E</tstamp>
+    </comp>
+    <comp ref="CBOUT1">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D4.5mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3CB274</tstamp>
+    </comp>
+    <comp ref="CSOUT1">
+      <value>100uF</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D4.5mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3CB27A</tstamp>
+    </comp>
+    <comp ref="FOUT1">
+      <value>1.1A</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuse_TE5_Littlefuse-395Series</footprint>
+      <libsource lib="device" part="Polyfuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3CB280</tstamp>
+    </comp>
+    <comp ref="R2OUT1">
+      <value>2K</value>
+      <footprint>Connectors:bornier2</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3CB286</tstamp>
+    </comp>
+    <comp ref="VROUTI5V1">
+      <value>LM7805CT</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <libsource lib="regul" part="LM7805CT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3D87EC</tstamp>
+    </comp>
+    <comp ref="OUTI5V1">
+      <value>TB</value>
+      <footprint>Connectors:bornier2</footprint>
+      <libsource lib="conn" part="Screw_Terminal_1x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3D8915</tstamp>
+    </comp>
+    <comp ref="CBOUTI5V1">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D4.5mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3D8994</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM317T">
+      <aliases>
+        <alias>LM317AT</alias>
+      </aliases>
+      <description>1.5A 35V Adjustable Linear Regulator, TO-220</description>
+      <docs>http://www.national.com/ds/LM/LM117.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317T</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-220_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM7805CT">
+      <aliases>
+        <alias>LM7806CT</alias>
+        <alias>LM7808CT</alias>
+        <alias>LM7809CT</alias>
+        <alias>LM7810CT</alias>
+        <alias>LM7812CT</alias>
+        <alias>LM7815CT</alias>
+        <alias>LM7818CT</alias>
+        <alias>LM7824CT</alias>
+        <alias>LM7806ACT</alias>
+        <alias>LM7808ACT</alias>
+        <alias>LM7809ACT</alias>
+        <alias>LM7810ACT</alias>
+        <alias>LM7812ACT</alias>
+        <alias>LM7815ACT</alias>
+        <alias>LM7818ACT</alias>
+        <alias>LM7824ACT</alias>
+      </aliases>
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM7805.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805CT</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-220_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmeter</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Polyfuse">
+      <description>resettable fuse, polymeric positive temperature coefficient (PPTC)</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_1x02">
+      <description>2-pin screw terminal connector</description>
+      <footprints>
+        <fp>bornier2</fp>
+        <fp>TerminalBlock*2pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_1x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R1OUT1-Pad2)">
+      <node ref="R2OUT1" pin="1"/>
+      <node ref="VROUT1" pin="1"/>
+      <node ref="R1OUT1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(FOUT1-Pad1)">
+      <node ref="FOUT1" pin="1"/>
+      <node ref="OUT1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(FOUT2-Pad1)">
+      <node ref="FOUT2" pin="1"/>
+      <node ref="OUT2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(CBOUT1-Pad1)">
+      <node ref="DVROUT1" pin="2"/>
+      <node ref="R1OUT1" pin="1"/>
+      <node ref="DOUT1" pin="1"/>
+      <node ref="CBOUT1" pin="1"/>
+      <node ref="CSOUT1" pin="1"/>
+      <node ref="FOUT1" pin="2"/>
+      <node ref="VROUT1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(CBOUTI5V1-Pad1)">
+      <node ref="CBOUTI5V1" pin="1"/>
+      <node ref="OUTI5V1" pin="2"/>
+      <node ref="VROUTI5V1" pin="3"/>
+    </net>
+    <net code="7" name="Net-(R2OUT2-Pad3)">
+      <node ref="R2OUT2" pin="3"/>
+    </net>
+    <net code="8" name="+15V">
+      <node ref="VROUTI5V1" pin="1"/>
+      <node ref="DVROUT2" pin="1"/>
+      <node ref="CSIN1" pin="1"/>
+      <node ref="CBIN1" pin="1"/>
+      <node ref="IN15V1" pin="1"/>
+      <node ref="VROUT2" pin="3"/>
+      <node ref="RIN1" pin="1"/>
+      <node ref="VROUT1" pin="3"/>
+      <node ref="DVROUT1" pin="1"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="OUT2" pin="1"/>
+      <node ref="IN15V1" pin="2"/>
+      <node ref="DOUT1" pin="2"/>
+      <node ref="CBIN1" pin="2"/>
+      <node ref="CSIN1" pin="2"/>
+      <node ref="R2OUT1" pin="2"/>
+      <node ref="DIN1" pin="1"/>
+      <node ref="DOUT2" pin="2"/>
+      <node ref="CSOUT1" pin="2"/>
+      <node ref="CBOUT1" pin="2"/>
+      <node ref="OUT1" pin="1"/>
+      <node ref="CBOUTI5V1" pin="2"/>
+      <node ref="VROUTI5V1" pin="2"/>
+      <node ref="OUTI5V1" pin="1"/>
+      <node ref="R2OUT2" pin="2"/>
+      <node ref="CSOUT2" pin="2"/>
+      <node ref="CBOUT2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(DIN1-Pad2)">
+      <node ref="RIN1" pin="2"/>
+      <node ref="DIN1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R1OUT2-Pad2)">
+      <node ref="R1OUT2" pin="2"/>
+      <node ref="VROUT2" pin="1"/>
+      <node ref="R2OUT2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(CBOUT2-Pad1)">
+      <node ref="CBOUT2" pin="1"/>
+      <node ref="VROUT2" pin="2"/>
+      <node ref="DOUT2" pin="1"/>
+      <node ref="FOUT2" pin="2"/>
+      <node ref="CSOUT2" pin="1"/>
+      <node ref="R1OUT2" pin="1"/>
+      <node ref="DVROUT2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(R2OUT1-Pad3)">
+      <node ref="R2OUT1" pin="3"/>
+    </net>
+  </nets>
+</export>
